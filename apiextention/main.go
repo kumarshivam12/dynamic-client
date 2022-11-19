@@ -77,7 +77,6 @@ func doSSA(ctx context.Context, cfg *rest.Config) error {
 	if err != nil {
 		return err
 	}
-	fmt.Println(data)
 	_, err = dr.List(context.TODO(), metav1.ListOptions{})
 
 	return err
